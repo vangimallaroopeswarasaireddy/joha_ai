@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>John AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <h1>John AI</h1>
+    <p>Voice + Semantic Memory Assistant</p>
+  </header>
+
+  <div id="chat" class="chat"></div>
+
+  <div class="input-box">
+    <input
+      id="messageInput"
+      type="text"
+      placeholder="Ask John something..."
+      autocomplete="off"
+    />
+    <button onclick="startListening()">🎤</button>
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="toggleVoice()">🔊</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
